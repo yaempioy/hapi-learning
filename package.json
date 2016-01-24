@@ -7,5 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.1.1",
+    "glob": "^6.0.4",
+    "hapi": "^12.1.0",
+    "hapi-auth-jwt2": "^5.3.2",
+    "hapi-router": "^3.4.0",
+    "lodash": "^4.0.0",
+    "pg": "^4.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.18.0",
+    "umzug": "^1.8.0"
+  }
 }

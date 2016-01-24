@@ -1,0 +1,7 @@
+'use strict';
+var path = require('path');
+
+console.log('.Sequelizerc running');
+module.exports = {
+  'migrations-path': path.resolve('lib/migrations')
+}
