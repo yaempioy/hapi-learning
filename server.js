@@ -42,7 +42,6 @@ dbTask.up().then(function(migrations) {
     }
   });
 }).all().spread(function(user, created) {
-
   server.start(function() {
     console.log('Server is running at:', server.info.uri);
   });

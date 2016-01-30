@@ -7,7 +7,7 @@ var config = {
   'port': '5555',
   // database configuration
   'database': {
-    'url': 'postgres://postgres:@localhost:5432/boilerplate2'
+    'url': 'postgres://postgres:@localhost:5432/boilerplate'
   }
 }
 
